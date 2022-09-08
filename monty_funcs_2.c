@@ -56,6 +56,7 @@ void monty_sub(stack_t **stack, unsigned int line_number)
  * Description: The result is stored in the second value node
  *              from the top and the top value is removed.
  */
+
 void monty_div(stack_t **stack, unsigned int line_number)
 {
 	if ((*stack)->next == NULL || (*stack)->next->next == NULL)
@@ -83,6 +84,7 @@ void monty_div(stack_t **stack, unsigned int line_number)
  * Description: The result is stored in the second value node
  *              from the top and the top value is removed.
  */
+
 void monty_mul(stack_t **stack, unsigned int line_number)
 {
 	if ((*stack)->next == NULL || (*stack)->next->next == NULL)
@@ -104,6 +106,7 @@ void monty_mul(stack_t **stack, unsigned int line_number)
  * Description: The result is stored in the second value node
  *              from the top and the top value is removed.
  */
+
 void monty_mod(stack_t **stack, unsigned int line_number)
 {
 	if ((*stack)->next == NULL || (*stack)->next->next == NULL)
